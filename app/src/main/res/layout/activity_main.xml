@@ -8,25 +8,10 @@
     android:padding="20dp"
     tools:context=".activity.MainActivity">
 
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:id="@+id/tv_socket"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hello World!"
-                android:textSize="18sp"
-                android:textColor="#323131" />
-
-
-        </LinearLayout>
-
-    </androidx.core.widget.NestedScrollView>
+      <com.github.mikephil.charting.charts.LineChart
+          android:id="@+id/line_chart"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginHorizontal="15dp"/>
 
 </LinearLayout>
